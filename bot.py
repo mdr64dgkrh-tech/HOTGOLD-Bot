@@ -11,7 +11,7 @@ from aiogram.types import (CallbackQuery, InlineKeyboardButton, InlineKeyboardMa
                            LabeledPrice, Message, PreCheckoutQuery)
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]          # токен от @BotFather
-ADMIN_ID = int(os.getenv("ADMIN_ID", "7170883398")       # твой Telegram ID: сюда придут оплаченные заказы
+ADMIN_ID = int(os.getenv("ADMIN_ID", "7170883398"))       # твой Telegram ID: сюда придут оплаченные заказы
 
 # Каждый пакет = свой постоянный код (тот же, что показывает сайт). Gold -> Stars.
 CODES = {
