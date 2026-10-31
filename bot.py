@@ -1,14 +1,4 @@
-import asyncio
-import logging
-import os
-
-from aiogram import Bot, Dispatcher, F
-from aiogram.filters import CommandStart
-from aiogram.fsm.context import FSMContext
-from aiogram.fsm.state import State, StatesGroup
-from aiogram.fsm.storage.memory import MemoryStorage
-from aiogram.types import (CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup,
-                           LabeledPrice, Message, PreCheckoutQuery)
+              LabeledPrice, Message, PreCheckoutQuery)
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]          # токен от @BotFather
 ADMIN_ID = int(os.getenv("ADMIN_ID", "7170883398"))       # твой Telegram ID: сюда придут оплаченные заказы
